@@ -1,3 +1,5 @@
+<?php require_once 'config.php'; ?>
+
 <!DOCTYPE html> 
 <html>
 
@@ -27,7 +29,7 @@
      
     <h2> Champagne de moet </h2>  
 
-    <img src="images/champagne2.JPG" alt="champagne" height="400">
+    <img src="Images/champagne2.JPG" alt="champagne" height="400">
 
 
 

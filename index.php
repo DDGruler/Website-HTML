@@ -1,3 +1,6 @@
+<?php require_once 'config.php'; ?>
+
+
 <!DOCTYPE html> 
 <html>
 
@@ -6,9 +9,9 @@
    <meta cherset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, inital-scale=1.0"> 
-   <link rel="icon" type="image/jpg" href="images/Favicon.JPG"> 
+   <link rel="icon" type="image/jpg" href="Images/Favicon.JPG"> 
    <title> fAmazon </title>
-   <link rel="icon" type="image/jpg" href="images/Favicon.JPG"> 
+   <link rel="icon" type="image/jpg" href="Images/Favicon.JPG"> 
    <link rel="stylesheet" href="style.css"> <!-- lien au stylesheet CSS -->
 
  </head>
@@ -30,8 +33,8 @@
     <br> 
 
 
-    <a href="champagne.html"> 
-    <img src="images/champagne2.JPG" alt="champgne" height="200">
+    <a href="champagne.php"> 
+    <img src="Images/champagne2.JPG" alt="champgne" height="200">
     <h3> Champgne de Moet</h3>
    </a>
 
