@@ -6,6 +6,8 @@ $dbname = 'ProjetArchitechture';
 $user = 'root';
 $pass = 'test';
 
+$error_message = 'erreur';
+
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -14,7 +16,11 @@ try {
     echo "✅ Connexion à la base de données réussie !";
     
 } catch (PDOException $e) {
-    die("❌ Erreur de connexion : " . $e->getMessage());
+    $error_message = "❌ Erreur de connexion : " . $e->getMessage();
 }
 
+// Display the error message if it exists
+if (!empty($error_message)) {
+    echo "<p style='color: red;'>$error_message</p>";
+}
 ?>

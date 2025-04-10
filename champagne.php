@@ -60,10 +60,10 @@
 
    <footer>
    <ul>
-    <li><a href="panier.html" title="Va dans le panier">Votre panier</a> <br> </li>
-    <li><a href="index.html" title="Retout a la page principale">Home</a> </li>
-    <li><a href="profil.html" title="Mon profil">Mon profil</a>
-    <li><a href="produits.html" title="Page produits">Page Produits</a>
+    <li><a href="panier.php" title="Va dans le panier">Votre panier</a> <br> </li>
+    <li><a href="index.php" title="Retout a la page principale">Home</a> </li>
+    <li><a href="profil.php" title="Mon profil">Mon profil</a>
+    <li><a href="produits.php" title="Page produits">Page Produits</a>
    </ul>
    </footer>
     
